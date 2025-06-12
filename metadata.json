@@ -1,0 +1,8 @@
+{
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "name": "Copy of With Emotion Avater xarvio Chat UI idea",
+  "description": "An AI-powered dashboard to assist with farming tasks and queries, featuring voice input and screen sharing.",
+  "prompt": ""
+}
