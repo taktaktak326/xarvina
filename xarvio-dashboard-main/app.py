@@ -769,9 +769,6 @@ st.set_page_config(page_title="圃場優先順位ダッシュボード", layout=
 with st.sidebar:
     lang = st.radio("🌐 言語 / Language", ["jp", "en"], index=0)
     
-# Load CSS
-with open("https://github.com/taktaktak326/xarvina/blob/main/xarvio-dashboard-main/styles.css") as f:
-    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # --- セッションステート初期化 ---
 for key in ["is_logged_in", "login_token", "df_token", "farms", "selected_farm_uuid", "field_data", "full_data", "farm_dataframe"]:
