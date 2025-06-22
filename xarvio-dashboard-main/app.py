@@ -770,7 +770,7 @@ with st.sidebar:
     lang = st.radio("🌐 言語 / Language", ["jp", "en"], index=0)
     
 # Load CSS
-with open("styles.css") as f:
+with open("https://github.com/taktaktak326/xarvina/blob/main/xarvio-dashboard-main/styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # --- セッションステート初期化 ---
