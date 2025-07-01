@@ -3,4 +3,4 @@ pandas
 requests
 google-genai
 google.api_core
-google.cloud.discoveryengine_v1
+google-cloud-discoveryengine
