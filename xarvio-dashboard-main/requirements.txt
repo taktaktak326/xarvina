@@ -2,3 +2,4 @@ streamlit
 pandas
 requests
 google-genai
+google.api_core
