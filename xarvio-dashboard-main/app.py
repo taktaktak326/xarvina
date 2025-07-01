@@ -117,7 +117,7 @@ def stream_gemini_response(
 
     contents = [
         types.Content(role="user", parts=[
-            types.Part.from_text(system_instruction + "\n\n" + user_text)
+            types.Part(text=system_instruction + "\n\n" + user_text)
         ])
     ]
 
